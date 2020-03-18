@@ -1,25 +1,72 @@
 
 
-/* Formatação Body)*/
-
-body {
-
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
-	
-	margin: 0 auto;
-	width: 800px;
-	position: relative;
-	background: #f2f2f2;
+*{
+	margin: 0;
+	padding: 0;
 }
 
-
-
-#geral {
+body{
 	background: #fff;
-	width: 750px;
-	margin: 0 auto;
-	padding: 2em;
+	font-size: 1em;
+	font-family: Verdana, sans-serif;
 }
+
+/* Area de Navegação*/
+
+#cabecalho{
+	background-color:  #000066;
+	padding: 20px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+#menu{
+	padding: 15px;
+	color: #fff;
+}
+
+#foto  {
+	padding: 15px;
+}
+
+#principal{
+
+	color: #6b6b47;
+	width: 800px;
+	margin: 10px auto;
+	background: #ebebe0;
+	padding: 100px;
+	
+}
+
+#rodape {
+	
+	padding: 3em;
+	text-align: center;
+	background: #6b6b47;
+	color: #fff;
+
+}
+
+/*Formatação Menu*/
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #fff;
+	padding: 8px 10px;
+
+}
+
+a:hover {
+	color: #0000b3;
+	background: #fff;
+}
+
+
+/* Textos*/
 
 h1 {
 	width: 800px;
@@ -37,33 +84,16 @@ h2 {
 
 p {
 	text-align: justify;
-	text-indent: 1.5em;
-}
-
-#menu{
-	background-color: blue;
-}
-
-#menu ul {
-    padding:5px;
-    margin:5px;
-    background-color:#EDEDED;
-    list-style:none;
-    float: left;
-}
-
-#menu ul li { display: inline; }
-
-#menu ul li a {
-    padding: 2px 10px;
-    display: inline-block;
-    float: left;
-
-    /* visual do link */
-    background-color:#EDEDED;
-    color: #333;
-    text-decoration: none;
-    border-bottom:3px solid #EDEDED;
+	/*text-indent: 1.5em;*/
 }
 
 
+img {
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	position:absolute;
+	right:10px;
+	top:10px;
+	margin: 25px;
+}
